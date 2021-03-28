@@ -41,14 +41,14 @@ rails server
 ```
 To see the application in action, open a browser window and navigate to http://localhost:3000/articles
 
-## Usage: 
+## Usage
 
 The tutorial was designed for beginners who want to get started with a Rails application from scratch. Once you've explored this "Getting Started" Rails application, feel free to update it and experiment on your own.
 
-## Project status:
+## Project status
 
 This project is still being develped and has the potential for more features and functionality.
 
-## Roadmap:
+## Roadmap
 
 How would you like to see this project grow in the future? Please leave a comment and share any suggestions.
