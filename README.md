@@ -25,18 +25,30 @@ sqlite3 --version
 node --version
 yarn --version
 ```
-Install Rails
+Install Rails:
 ```bash
 gem install rails
 rails --version
 ```
-Clone respository 
+Clone respository: 
 ```bash
-git clone <https://github.com/bchecchia/Blog.git>
-cd <blog>
+git clone https://github.com/bchecchia/Blog.git
+cd blog
 ```
-Starting up the Web Server 
+Starting up the Web Server: 
 ```bash
 rails server
 ```
 To see the application in action, open a browser window and navigate to http://localhost:3000/articles
+
+## Usage: 
+
+The tutorial was designed for beginners who want to get started with a Rails application from scratch. Once you've explored this "Getting Started" Rails application, feel free to update it and experiment on your own.
+
+## Project status:
+
+This project is still being develped and has the potential for more features and functionality.
+
+## Roadmap:
+
+How would you like to see this project grow in the future? Please leave a comment and share any suggestions.
