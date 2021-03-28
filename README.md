@@ -1,24 +1,42 @@
-# README
+# Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+This project is about creating a Blog using the Ruby on Rails framework. 
 
-* Ruby version
+Link to tutorial: <https://guides.rubyonrails.org/getting_started.html> 
 
-* System dependencies
+## Installation
 
-* Configuration
+Steps necessary to get the application up and running.
 
-* Database creation
+Before you install Rails, you should check to make sure that your system has the proper prerequisites installed. These include:
 
-* Database initialization
+* Ruby
+* SQLite3
+* Node.js
+* Yarn
 
-* How to run the test suite
+Run the follwing commands to confirm:
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+ruby --version
+sqlite3 --version
+node --version
+yarn --version
+```
+Install Rails
+```bash
+gem install rails
+rails --version
+```
+Clone respository 
+```bash
+git clone <https://github.com/bchecchia/Blog.git>
+cd <blog>
+```
+Starting up the Web Server 
+```bash
+rails server
+```
+To see the application in action, open a browser window and navigate to http://localhost:3000/articles
